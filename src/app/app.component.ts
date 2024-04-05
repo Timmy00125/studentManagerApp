@@ -13,6 +13,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 })
 export class AppComponent implements OnInit {
   public students: Student[] = [];
+  title = 'Student Manager app';
 
   constructor(private studentService: StudentService) {}
 
